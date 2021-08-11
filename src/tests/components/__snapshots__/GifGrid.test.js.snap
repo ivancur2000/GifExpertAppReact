@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente GifGrid debe mostrar data del useFetch 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flipInX"
+  >
+    One Punch
+  </h3>
+  <div
+    className="cardGrid"
+  >
+    <GifGridItem
+      id="123"
+      key="123"
+      title="ImageTest"
+      url="http://localhost.imh2"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el componente GifGrid el componete debe mostrarse correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__flipInX"
+  >
+    One Punch
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading...
+  </p>
+  <div
+    className="cardGrid"
+  />
+</Fragment>
+`;

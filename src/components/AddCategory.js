@@ -24,10 +24,11 @@ const AddCategory = ({setCategories})=>{
         value={inputValue}
         onChange={handleOnChange}
       />
+      <p >{inputValue}</p>
     </form>
   );
 }
-AddCategory.prototype = {
+AddCategory.propTypes = {
   setCategories: PropTypes.func.isRequired
 }
 export default AddCategory;
